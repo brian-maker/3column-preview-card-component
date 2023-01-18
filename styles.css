@@ -65,6 +65,10 @@ button:hover{
 .sedans button{
     color: var(--bg-sedans);
 }
+.sedans button:hover{
+    background-color: var(--bg-sedans);
+    color: var(--color-p);
+}
 .suvs{
     background-color:var(--bg-suvs);
     padding: 1.5rem;
@@ -90,6 +94,10 @@ button:hover{
 .suvs button{
     color: var(--bg-suvs);
 }
+.suvs button:hover{
+    background-color: var(--bg-suvs);
+    color: var(--color-p);
+}
 .luxury{
     background-color:var(--bg-luxury);
     padding: 1.5rem;
@@ -114,6 +122,10 @@ button:hover{
 }
 .luxury button{
     color: var(--bg-luxury);
+}
+.luxury button:hover{
+    background-color: var(--bg-luxury);
+    color: var(--color-p);
 }
 
 @media  screen and (max-width: 720px) {
